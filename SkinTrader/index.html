@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skin Trader</title>
+    <!---->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <section class="landing">
+    <section class="landing" id="home">
         <nav>
             <h1>Skin Trader</h1>
             <ul class="nav-ul">
-                <li id="home">Home</li>
-                <li id="trade">Trade</li>
-                <li id="search-nav">Search / Generate Skins</li>
+                <li id="home"> <a href="#home">Home</a></li>
+                <li id="trade"><a href="#skin-cont">Trader</a></li>
+                <li id="search-nav"><a href="https://www.youtube.com/results?search_query=mans+not+hot">Search / Generate Skins</a></li>
             </ul>
         </nav>
         <div class="wrapper">
@@ -26,7 +27,7 @@
                 <img src="./media/cover.jpg" alt="coverImage" id="cover-img">
         </div>
     </section>
-    <div class="skinns">
+    <div class="skinns" id="skin-cont">
         <div class="generate" >
             <div id="testbutton" onclick="changeImage()"></div>
         </div>
@@ -34,6 +35,21 @@
             <img  id="target" src="./skins/katarina.jpg" alt="skin" onclick="changeImage()" >
         </div>
         <div class="info"></div>
+    </div>
+
+    <div id="prvi-div">
+        <div class="block">
+              <h3>Opasni Lol Skinovi</h3> 
+              <span id="btn">Click me </span>
+        </div>
+        <div class="block">
+             <h3>Ja sam Lol Igrac</h3> 
+                <p id="p1">menja tekst na klik</p>  
+        </div>
+        <div class="block"> 
+            <h3>Evo slika skina </h3> 
+            <img src="./skins/betrayer.webp" alt="Omg Brutalan Skin">
+        </div>
     </div>
 
 
